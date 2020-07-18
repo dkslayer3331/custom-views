@@ -10,5 +10,6 @@
     <string name="fan_medium">2</string>
     <string name="fan_high">3</string>
     <string name="go_to_fan_activity">Go to Fan Activity</string>
+    <string name="go_to_face_view">Go To Face View</string>
 
 </resources>

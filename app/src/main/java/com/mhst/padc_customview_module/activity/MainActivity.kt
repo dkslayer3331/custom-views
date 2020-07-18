@@ -21,6 +21,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(ReactionViewPodActivity.newIntent(this))
         }
 
+        btnGoToFanActivity.setOnClickListener {
+            startActivity(FanControlActivity.newIntent(this))
+        }
+
+        btnGoToFace.setOnClickListener {
+            startActivity(EmotionalFaceActivity.newIntent(this))
+        }
+
     }
 
 

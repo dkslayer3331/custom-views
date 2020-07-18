@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.FanControlActivity"></activity>
+        <activity android:name=".activity.EmotionalFaceActivity"></activity>
+        <activity android:name=".activity.FanControlActivity" />
         <activity android:name=".activity.ReactionViewPodActivity" />
         <activity android:name=".activity.ModifiedViewActivity" />
         <activity android:name=".activity.MainActivity">

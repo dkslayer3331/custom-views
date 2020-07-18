@@ -1,4 +1,4 @@
-package com.mhst.padc_customview_module
+package com.mhst.padc_customview_module.viewpods
 
 import android.content.Context
 import android.util.AttributeSet

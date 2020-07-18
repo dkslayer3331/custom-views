@@ -1,13 +1,13 @@
-package com.mhst.padc_customview_module
+package com.mhst.padc_customview_module.views
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Rect
 import android.util.AttributeSet
-import android.widget.EditText
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.withStyledAttributes
+import com.mhst.padc_customview_module.R
 
 /**
  * Created by Moe Htet on 17,July,2020
@@ -21,7 +21,9 @@ class MyCustomEditText(context: Context?, attrs: AttributeSet?) :
     private val mRect = Rect()
 
     init {
-       context?.withStyledAttributes(attrs,R.styleable.PrefixCustomEditText){
+       context?.withStyledAttributes(attrs,
+           R.styleable.PrefixCustomEditText
+       ){
          mPrefix = getString(R.styleable.PrefixCustomEditText_prefix) ?: mPrefix
          mColor = getColor(R.styleable.PrefixCustomEditText_prefixColor,mColor)
        }

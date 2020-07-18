@@ -45,5 +45,9 @@ dependencies {
     //mmtext view
     implementation "org.mmtextview:mmtextview:1.5"
 
+    implementation 'bg.devlabs.fastlist:fast-list:1.4'
+
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+
 
 }

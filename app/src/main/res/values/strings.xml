@@ -3,4 +3,12 @@
     <string name="go_to_recyclerview">go to recyclerview</string>
     <string name="go_to_custom_imageview">Go to custom imageview</string>
     <string name="go_to_modified_views">go to modified views</string>
+
+    <string name="fan_control">Fan Control</string>
+    <string name="fan_off">off</string>
+    <string name="fan_low">1</string>
+    <string name="fan_medium">2</string>
+    <string name="fan_high">3</string>
+    <string name="go_to_fan_activity">Go to Fan Activity</string>
+
 </resources>

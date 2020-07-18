@@ -4,7 +4,14 @@
         <attr name="prefix" format="string"/>
         <attr name="prefixColor" format="color"/>
     </declare-styleable>
+
     <declare-styleable name="CustomImage">
         <attr name="cornerRadius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="DialView">
+        <attr name="fanColor1" format="color" />
+        <attr name="fanColor2" format="color" />
+        <attr name="fanColor3" format="color" />
     </declare-styleable>
 </resources>

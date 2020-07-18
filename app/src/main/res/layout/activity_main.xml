@@ -23,11 +23,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-<!--        <Button-->
-<!--            android:id="@+id/btnGoToRv"-->
-<!--            android:text="@string/go_to_recyclerview"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"/>-->
+        <Button
+            android:id="@+id/btnGoToFanActivity"
+            android:text="@string/go_to_fan_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
     </LinearLayout>
 </RelativeLayout>

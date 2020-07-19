@@ -6,17 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".activity.ModifiedViewActivity">
 
+
     <com.mhst.padc_customview_module.views.CustomImageView
         android:id="@+id/ivCustom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cornerRadius="16dp"
         android:src="@drawable/ic_launcher_background"
+        app:cornerRadius="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
 
     <com.mhst.padc_customview_module.views.MyCustomEditText
         android:id="@+id/etCustom"
@@ -29,4 +31,49 @@
         app:layout_constraintTop_toBottomOf="@+id/ivCustom"
         app:layout_constraintVertical_bias="0.109" />
 
+    <include
+        android:id="@+id/vpProgress"
+        layout="@layout/viewpod_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/etCustom"
+        app:layout_constraintStart_toStartOf="@+id/etCustom"
+        app:layout_constraintTop_toBottomOf="@+id/etCustom"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/vpProgress"
+        app:layout_constraintStart_toStartOf="@+id/vpProgress"
+        app:layout_constraintTop_toBottomOf="@+id/vpProgress">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

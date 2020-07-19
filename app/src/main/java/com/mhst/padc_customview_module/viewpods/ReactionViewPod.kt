@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.viewpod_reaction.view.*
 /**
  * Created by Moe Htet on 18,July,2020
  */
-class ReactionView @JvmOverloads constructor(
+class ReactionViewPod @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : RelativeLayout(context, attrs, defStyleAttr) {
 
